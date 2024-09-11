@@ -22,7 +22,7 @@ html {
   background-color: #32313a;
   padding: 20px 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-  z-index: 2;
+  z-index: 20;
 }
 
 .logo {
@@ -268,7 +268,7 @@ nav a:nth-child(5):hover ~ .animation {
   padding: 1rem;
   position: relative;
   margin-bottom: 50px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .skill-header::after {
@@ -332,7 +332,7 @@ nav a:nth-child(5):hover ~ .animation {
 .contact {
   height: 100vh;
   color: white;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .navbar .nav-link.active {
